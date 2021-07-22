@@ -7,7 +7,7 @@ contract supplyChain{
     address public initiatingParty;
     address public previousParty;
     address public CounterParty;
-    address public CurrentParty;
+    
     
     address public Owner;
     address public Observer;
@@ -29,7 +29,8 @@ contract supplyChain{
         
         
         State=stateTypes.Created; //SETS THE STATE TO CREATED
-    
+        
+        
         
         
     }
